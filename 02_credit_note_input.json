@@ -1,0 +1,14 @@
+{
+  "documents": [
+    {
+      "documentId": "local-contract-example",
+      "fileName": "base-creditnote-correction.xml",
+      "url": "https://raw.githubusercontent.com/OpenPEPPOL/peppol-bis-invoice-3/v3.0.20/rules/examples/base-creditnote-correction.xml"
+    }
+  ],
+  "documentType": "AUTO",
+  "unwrapSbdh": true,
+  "allowPartialNormalization": true,
+  "storeTechnicalReports": false,
+  "maxFindingsPerDocument": 20
+}
