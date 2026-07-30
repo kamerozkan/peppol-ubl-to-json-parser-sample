@@ -1,0 +1,216 @@
+{
+  "contractVersion": "einvoice-suite-result/1.0.0",
+  "actorName": "peppol-ubl-to-json-parser",
+  "itemId": "local-contract-example",
+  "inputIndex": 0,
+  "fileName": "Allowance-example.xml",
+  "producedAt": "2026-07-30T09:20:17.281231Z",
+  "processingStatus": "SUCCEEDED",
+  "conformanceStatus": "ACCEPTED",
+  "billable": false,
+  "scope": "DOCUMENT_ONLY",
+  "source": {
+    "container": "XML",
+    "documentSha256": "aa3df18eb8c634624637eb229891d989c5cfb7cd0d08894ff8e58c58f247ea5b",
+    "sha256": "aa3df18eb8c634624637eb229891d989c5cfb7cd0d08894ff8e58c58f247ea5b",
+    "sourceKind": "FILE",
+    "standard": {
+      "customizationId": "urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0",
+      "documentTypeIdentifier": "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0::2.1",
+      "engineIdentifiers": {
+        "customizationId": "urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0",
+        "documentTypeIdentifier": "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0::2.1",
+        "profileId": "urn:fdc:peppol.eu:2017:poacc:billing:01:1.0",
+        "ublVersionId": "2.1"
+      },
+      "family": "PEPPOL_BIS_BILLING",
+      "processId": "urn:fdc:peppol.eu:2017:poacc:billing:01:1.0",
+      "profile": "PEPPOL_BILLING_01",
+      "scenario": "Peppol Billing BIS 3 - UBL Invoice",
+      "ublVersionId": "2.1",
+      "version": "3.0.20-hotfix"
+    },
+    "syntax": "UBL_INVOICE"
+  },
+  "normalizationStatus": "COMPLETE",
+  "peppolScope": {
+    "as4Transport": "NOT_ASSESSED",
+    "documentRules": "EVALUATED",
+    "networkDelivery": "NOT_ASSESSED",
+    "participantCapability": "NOT_ASSESSED",
+    "sbdhEnvelope": "NOT_PRESENT"
+  },
+  "artifacts": {},
+  "invoice": {
+    "schema": {
+      "name": "en16931-invoice",
+      "version": "1.0.0"
+    },
+    "document": {
+      "dueDate": "2017-12-01",
+      "invoiceCurrencyCode": "EUR",
+      "invoiceNumber": "Snippet1",
+      "invoiceTypeCode": "380",
+      "issueDate": "2017-11-13",
+      "notes": [
+        "Please note we have a new phone number: 22 22 22 22"
+      ],
+      "taxPointDate": "2017-12-01",
+      "vatAccountingCurrencyCode": "SEK"
+    },
+    "process": {
+      "businessProcessIdentifier": "urn:fdc:peppol.eu:2017:poacc:billing:01:1.0",
+      "specificationIdentifier": "urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0"
+    },
+    "references": {
+      "buyerAccountingReference": "4025:123:4343",
+      "buyerReference": "0150abc",
+      "contractReference": "framework no 1",
+      "invoicedObjectIdentifiers": [
+        {
+          "schemeId": "ABT",
+          "value": "DR35141"
+        }
+      ],
+      "precedingInvoices": []
+    },
+    "parties": {
+      "seller": {
+        "name": "SupplierOfficialName Ltd"
+      },
+      "buyer": {
+        "name": "Buyer Official Name"
+      }
+    },
+    "lines": [
+      {
+        "id": "1",
+        "quantity": {
+          "unitCode": "C62",
+          "value": "10"
+        },
+        "netAmount": {
+          "amount": "4000",
+          "currency": "EUR"
+        },
+        "item": {
+          "name": "item name"
+        },
+        "vat": {
+          "categoryCode": "S",
+          "rate": "25"
+        }
+      },
+      {
+        "id": "2",
+        "quantity": {
+          "unitCode": "C62",
+          "value": "10"
+        },
+        "netAmount": {
+          "amount": "1000",
+          "currency": "EUR"
+        },
+        "item": {
+          "name": "item name"
+        },
+        "vat": {
+          "categoryCode": "E",
+          "rate": "0"
+        }
+      }
+    ],
+    "vatBreakdowns": [
+      {
+        "categoryCode": "S",
+        "rate": "25",
+        "taxAmount": {
+          "amount": "1225",
+          "currency": "EUR"
+        },
+        "taxableAmount": {
+          "amount": "4900",
+          "currency": "EUR"
+        }
+      },
+      {
+        "categoryCode": "E",
+        "exemptionReason": "Reason for tax exempt",
+        "rate": "0",
+        "taxAmount": {
+          "amount": "0",
+          "currency": "EUR"
+        },
+        "taxableAmount": {
+          "amount": "1000",
+          "currency": "EUR"
+        }
+      }
+    ],
+    "totals": {
+      "allowanceTotal": {
+        "amount": "200",
+        "currency": "EUR"
+      },
+      "amountDue": {
+        "amount": "6125",
+        "currency": "EUR"
+      },
+      "chargeTotal": {
+        "amount": "200",
+        "currency": "EUR"
+      },
+      "invoiceTotalExcludingVat": {
+        "amount": "5900",
+        "currency": "EUR"
+      },
+      "invoiceTotalIncludingVat": {
+        "amount": "7125",
+        "currency": "EUR"
+      },
+      "lineNetTotal": {
+        "amount": "5900",
+        "currency": "EUR"
+      },
+      "paidAmount": {
+        "amount": "1000",
+        "currency": "EUR"
+      },
+      "vatTotals": [
+        {
+          "amount": "1225",
+          "currency": "EUR"
+        },
+        {
+          "amount": "9324",
+          "currency": "SEK"
+        }
+      ]
+    }
+  },
+  "report": {
+    "schema": {
+      "name": "technical-conformance-report",
+      "version": "1.0.0"
+    },
+    "overall": "CONFORMANT",
+    "counts": {
+      "error": 0,
+      "information": 0,
+      "warning": 0
+    },
+    "scope": {
+      "as4Transport": "NOT_ASSESSED",
+      "authenticity": "NOT_ASSESSED",
+      "legalValidity": "NOT_ASSESSED",
+      "networkDelivery": "NOT_ASSESSED",
+      "participantCapability": "NOT_ASSESSED",
+      "pdfXmlSemanticIdentity": "NOT_APPLICABLE",
+      "peppolDocumentRules": "EVALUATED",
+      "recipientAcceptance": "NOT_ASSESSED",
+      "sbdhEnvelope": "NOT_PRESENT",
+      "taxRecognition": "NOT_ASSESSED",
+      "technicalConformance": "EVALUATED"
+    }
+  }
+}
