@@ -1,8 +1,8 @@
-> **Release preview:** this Actor is private. These files document the current contract and evidence; they are not a public API availability claim.
+> **Live Actor:** [Run Peppol UBL to JSON Parser on Apify](https://apify.com/kamerozkan/peppol-ubl-to-json-parser).
 
 # Peppol BIS Billing UBL to JSON Parser: JSON Examples and Schema
 
-[![Apify Actor](https://img.shields.io/badge/Apify-PRIVATE%20HOSTED-BUILD%20PREVIEW-00c7b7?logo=apify)](https://apify.com/kamerozkan)
+[![Apify Actor](https://img.shields.io/badge/Apify-Run%20Actor-00c7b7?logo=apify)](https://apify.com/kamerozkan/peppol-ubl-to-json-parser)
 ![Build](https://img.shields.io/badge/build-0.0.1%20SUCCEEDED-2f855a)
 ![PPE](https://img.shields.io/badge/document--processed-%240.005-4c1)
 ![Samples](https://img.shields.io/badge/examples-3%20paired%20JSON-2f855a)
@@ -21,12 +21,12 @@ technical discovery.
 |---|---|
 | Actor | `peppol-ubl-to-json-parser` |
 | Actor ID | `2H8UdIY1VkrGgFZh4` |
-| Status | `PRIVATE HOSTED-BUILD PREVIEW` |
+| Status | `PUBLIC STORE LISTING` |
 | Successful build | `0.0.1` |
 | Custom event | `document-processed` |
 | Exact event price | `$0.005` |
 
-The exact source billing contract is $0.005 per evaluated document. Platform PPE was not configured at the snapshot.
+The live pay-per-event price is $0.005 per evaluated document. An Actor-start charge can also apply; check the Store page for the current maximum charge before a production run.
 
 Local contract examples ran the pinned KoSIT 1.6.2 and Peppol BIS Billing 3.0.20-hotfix stack. They are not hosted or live Store results.
 

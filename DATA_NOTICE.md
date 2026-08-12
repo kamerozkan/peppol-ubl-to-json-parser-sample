@@ -14,17 +14,14 @@ recipient.
 |---|---|
 | Snapshot date | `2026-07-30` |
 | Actor ID | `2H8UdIY1VkrGgFZh4` |
-| Actor status | `PRIVATE HOSTED-BUILD PREVIEW` |
+| Actor status | `PUBLIC STORE LISTING` |
 | Successful build | `0.0.1` |
 | Event contract | `document-processed` at `$0.005` |
 | Evidence class | real local pinned-engine contract evidence |
 
 Local contract examples ran the pinned KoSIT 1.6.2 and Peppol BIS Billing 3.0.20-hotfix stack. They are not hosted or live Store results.
 
-Private preview repositories do not claim public Store availability. Local
-contract results have `billable: false` because they were produced outside an
-Apify PPE run. They prove the pinned processing contract exercised locally,
-not a hosted charge or public lifecycle.
+The Actor is now available through its [public Store listing](https://apify.com/kamerozkan/peppol-ubl-to-json-parser). Local contract results have `billable: false` because they were produced outside an Apify PPE run. They prove the pinned processing contract exercised locally, not a hosted charge or public lifecycle.
 
 ## Input provenance
 
