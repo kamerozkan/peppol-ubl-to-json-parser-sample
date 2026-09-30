@@ -1,6 +1,10 @@
 > **Live Actor:** [Run Peppol UBL to JSON Parser on Apify](https://apify.com/kamerozkan/peppol-ubl-to-json-parser).
 
-# Peppol BIS Billing UBL to JSON Parser: JSON Examples and Schema
+# Peppol UBL to JSON Parser: Samples
+
+Parse Peppol BIS Billing UBL invoices and credit notes into stable JSON with document-level technical conformance findings. Transport is not included.
+
+[Run Peppol UBL to JSON Parser on Apify](https://apify.com/kamerozkan/peppol-ubl-to-json-parser)
 
 [![Apify Actor](https://img.shields.io/badge/Apify-Run%20Actor-00c7b7?logo=apify)](https://apify.com/kamerozkan/peppol-ubl-to-json-parser)
 ![Build](https://img.shields.io/badge/build-0.0.1%20SUCCEEDED-2f855a)

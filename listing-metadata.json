@@ -1,0 +1,15 @@
+{
+  "id": "2H8UdIY1VkrGgFZh4",
+  "name": "peppol-ubl-to-json-parser",
+  "title": "Peppol UBL to JSON Parser",
+  "description": "Parse Peppol BIS Billing UBL invoices and credit notes into stable JSON with document-level technical conformance findings. Transport is not included.",
+  "seoTitle": "Peppol UBL to JSON Invoice & Credit Note Parser",
+  "seoDescription": "Parse Peppol BIS Billing UBL invoices and credit notes into stable JSON. Keep source evidence and document-level technical findings; transport is separate.",
+  "isPublic": true,
+  "url": "https://apify.com/kamerozkan/peppol-ubl-to-json-parser",
+  "checkedAt": "2026-09-30",
+  "changeScope": "listing metadata and sample documentation only",
+  "runtimeChanged": false,
+  "schemasChanged": false,
+  "examplesRegenerated": false
+}
